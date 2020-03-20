@@ -655,6 +655,15 @@ GLOBAL_CLANG_CFLAGS_NO_OVERRIDE := \
     -Werror=address-of-temporary \
     -Werror=null-dereference \
     -Werror=return-type \
+    -Wno-tautological-constant-compare \
+    -Wno-null-dereference \
+    -Wno-null-pointer-arithmetic \
+    -Wno-unused-lambda-capture \
+    -Wno-delete-non-virtual-dtor \
+    -Wno-zero-as-null-pointer-constant \
+    -Wno-comma \
+    -Wno-address-of-packed-member \
+    -Wno-expansion-to-defined \
 
 GLOBAL_CPPFLAGS_NO_OVERRIDE :=
 
